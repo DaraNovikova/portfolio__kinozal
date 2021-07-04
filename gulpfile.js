@@ -1,5 +1,5 @@
 const {task, series, parallel, src, dest, watch} = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const browserSync = require('browser-sync');
 const notify = require('gulp-notify');
 const postcss = require('gulp-postcss');
