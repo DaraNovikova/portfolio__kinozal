@@ -79,14 +79,14 @@
 
     &-info {
         border: none;
-        background-color: darken($color-light, 8%);
+        background-color: darken($color-light, 4.5%);
 
         > .panel-heading {
             color: $color-light;
             background-color: $color-accent;
             border: none;
             font-size: 1.25rem;
-            letter-spacing: 0.1em;
+            letter-spacing: 0.08em;
         }
     }
 
@@ -96,3 +96,7 @@
     }
 }
 
+.input-group-lg > .form-control,
+.input-lg {
+    font-size: 0.875rem;
+}
