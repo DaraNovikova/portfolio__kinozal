@@ -328,6 +328,34 @@ h2::before {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+.footer-navbar {
+  padding-top: 43.5px;
+  border-radius: 0;
+  background-color: #232323;
+}
+.footer-content-column__title {
+  color: #dddddd;
+}
+.footer-content-column__list {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-content-column__item a {
+  -webkit-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+  color: #6f6f6f;
+}
+.footer-content-column__item a:hover {
+  color: #ffffff;
+}
+.footer-copyrigth__text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #dddddd;
+}
 @media (min-width: 576px) {
   .header-logo__title {
     letter-spacing: 0.33em;

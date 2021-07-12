@@ -1,0 +1,42 @@
+.footer {
+    
+    &-navbar {
+        padding-top: $gap * 2.9;
+        border-radius: 0;
+        background-color: $color-dark;
+    }
+
+    &-content-column {
+
+        &__title {
+            color: $color-gray;
+        }
+
+
+        &__list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        &__item {            
+            a {
+                transition: color 0.25s;
+                color: darken($color: $color-gray, $amount: 43%);
+
+                &:hover {
+                    color: $color-light;
+                }
+            }
+        }
+    }
+
+    &-copyrigth {
+
+        &__text {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: $color-gray;
+        }
+    }
+}
