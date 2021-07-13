@@ -85,11 +85,8 @@
     }
 
     &__btn {
-        float: right;
+        @extend %section-buttons;
         margin-bottom: $gap * 2;
-        color: $color-light;
-        border-color: lighten($color: $color-accent, $amount: 17%) ;
-        background-color: lighten($color: $color-accent, $amount: 17%);
     }
 }
 
