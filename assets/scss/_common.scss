@@ -35,6 +35,11 @@ h1,  h2 {
         content: "";
         border-bottom: 3px solid lighten($color: $color-accent, $amount: 17%);
     }
+
+    @include xs {
+        font-size: 2rem;
+        margin: 0 0 1em;
+    }
 }
 
 h2 {
@@ -50,5 +55,10 @@ h2 {
         margin: 0.25em 0 0 0;
         content: "";
         border-bottom: 3px solid lighten($color: $color-accent, $amount: 17%);
+    }
+
+    @include xs {
+        font-size: 1.75rem;
+        margin: 45px 0 30px 45px;
     }
 }

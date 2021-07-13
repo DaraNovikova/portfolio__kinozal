@@ -177,6 +177,10 @@ h2::before {
 .top-week-item__thumbnail:hover .top-week-item__title {
   color: #ffffff;
 }
+.new-films-item__image,
+.top-week-item__image {
+  width: 100%;
+}
 .new-films-item__title,
 .top-week-item__title {
   font-size: 1rem;
@@ -189,7 +193,6 @@ h2::before {
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
 }
-
 .cinema-news-item:hover .cinema-news-item__title a {
   color: #df8a13;
 }
@@ -207,6 +210,7 @@ h2::before {
   margin-bottom: 0;
 }
 .cinema-news-item__image img {
+  width: 100%;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -423,9 +427,20 @@ h2::before {
   }
 }
 @media (max-width: 575.8px) {
+  h1, h2 {
+    font-size: 2rem;
+    margin: 0 0 1em;
+  }
+  h2 {
+    font-size: 1.75rem;
+    margin: 45px 0 30px 45px;
+  }
   .header-logo__title {
     letter-spacing: 0.2em;
     font-size: 2.5rem;
     margin-right: -9.2px;
+  }
+  .cinema-news-item__title {
+    font-size: 1.25rem;
   }
 }
