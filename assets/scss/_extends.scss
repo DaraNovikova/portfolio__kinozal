@@ -5,3 +5,11 @@
 %margin-bottom-lg {
     margin-bottom: 80px;
 }
+
+
+%section-buttons {
+    float: right;
+    color: $color-light;
+    border-color: lighten($color: $color-accent, $amount: 17%) ;
+    background-color: lighten($color: $color-accent, $amount: 17%);
+}
