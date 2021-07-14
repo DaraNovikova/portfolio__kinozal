@@ -241,6 +241,10 @@ h2::before {
   border-color: #dddddd;
 }
 
+.film-review .panel:last-of-type {
+  margin-bottom: 0;
+}
+
 .film-comment-form__btn {
   -webkit-transition: all 0.25s;
   -o-transition: all 0.25s;

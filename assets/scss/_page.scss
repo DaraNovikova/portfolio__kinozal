@@ -32,6 +32,14 @@
     }
 }
 
+.film-review {
+    .panel {
+       &:last-of-type {
+            margin-bottom: 0;
+       }
+    }
+}
+
 .film-comment-form__btn {
     @extend %section-buttons;
     transition: all 0.25s;
